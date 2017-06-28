@@ -563,10 +563,10 @@ a.pagination-item:hover {
 }
 
 .selfie {
-  width: 125px
-  margin-bottom: 25px
-  border-radius: 100%
-  transition: all .2s
-  box-shadow: 0
-  opacity: 1
+  width: 125px;
+  margin-bottom: 25px;
+  border-radius: 100%;
+  transition: all .2s;
+  box-shadow: 0;
+  opacity: 1;
 }
