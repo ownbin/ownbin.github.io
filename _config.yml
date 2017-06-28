@@ -2,7 +2,7 @@
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
-relative_permalinks: true
+#relative_permalinks: true
 
 # Setup
 title:               Ownbin
@@ -10,7 +10,7 @@ tagline:             'Ownbin's Blog'
 #description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
 description:         'page for something.'
 url:                 https://ownbin.github.io
-baseurl:             ''
+baseurl:             'https://ownbin.github.io'
 paginate:            5
 
 # About/contact
