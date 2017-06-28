@@ -570,7 +570,7 @@ a.pagination-item:hover {
   z-index: 99;
 }
 
-.side-avatar.selfie {
+.side-avatar.link.selfie {
   width: 125px;
   margin-bottom: 25px;
   border-radius: 100%;
