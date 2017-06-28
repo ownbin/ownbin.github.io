@@ -564,7 +564,8 @@ a.pagination-item:hover {
 
 .side-avatar {
   display: block;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
+  margin-top: 25px;
   text-align: center;
   position: relative;
   z-index: 99;
