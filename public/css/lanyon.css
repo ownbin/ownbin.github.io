@@ -572,7 +572,7 @@ a.pagination-item:hover {
 
 .selfie {
   width: 125px;
-  margin-bottom: 25px;
+  margin-bottom: 0px;
   border-radius: 100%;
   transition: all .2s;
   box-shadow: 0;
