@@ -11,7 +11,7 @@ tagline:             'Blog of Ownbin'
 description:         'Just some records, have fun!.'
 url:                 https://ownbin.github.io
 baseurl:             'https://ownbin.github.io'
-paginate:            2
+paginate:            5
 
 # About/contact
 author:
