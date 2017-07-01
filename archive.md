@@ -4,7 +4,7 @@ title: Blog Archive
 banner_image: sample-banner-image-3.jpg
 ---
 
-<div>
+<!--<div>-->
 
 {% for post in site.posts %}
   {% capture currentyear %}{{post.date | date: "%Y"}}{% endcapture %}
@@ -19,4 +19,4 @@ banner_image: sample-banner-image-3.jpg
     <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
 {% endfor %}
 
-</div>
+<!--</div>-->
