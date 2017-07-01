@@ -15,8 +15,9 @@ title: Home
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
     <span>{{ post.tags }}</span>
-    {% for tag in post.tags %}
+    <span>{% for tag in post.tags %}
       <a href="{{ tag.url }}">{{ tag }} </a>
+    </span>
 
     <!--{{ post.content | truncatewords: 80 }}-->
     {{ post.excerpt }}
