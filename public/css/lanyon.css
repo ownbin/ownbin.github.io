@@ -600,3 +600,14 @@ a.pagination-item:hover {
 	animation-fill-mode: both;
 }
 
+.masthead .header-logo {
+  min-height: 44px;
+  padding-right: 10px;
+  /*@include column(1);*/
+  text-align: center;
+}
+
+.masthead .header-logo img {
+  text-align: center;
+  margin: 0 auto; 
+}
