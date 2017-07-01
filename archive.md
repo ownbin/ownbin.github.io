@@ -10,9 +10,7 @@ banner_image: sample-banner-image-3.jpg
       {% if currentyear != year %}
         {% unless forloop.first %}
         {% endunless %}
-        <ul>
           <h5>{{ currentyear }}</h5>
-        </ul>
         {% capture year %}{{currentyear}}{% endcapture %} 
       {% endif %}
       <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
