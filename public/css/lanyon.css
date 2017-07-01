@@ -600,12 +600,7 @@ a.pagination-item:hover {
 	animation-fill-mode: both;
 }
 
-.post .banner-image, 
-.page .banner-image, 
-.post .banner_video, 
-.page .banner_video {
-  margin: -1em -1em 0 -1em;
-  padding-bottom: 1em;
-  margin: -2em -2em 0 -2em;
+.banner-image {
+  height: 20em;
 }
 
