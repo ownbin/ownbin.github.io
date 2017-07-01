@@ -9,8 +9,8 @@ banner_image: sample-banner-image-3.jpg
     {% capture currentyear %}{{post.date | date: "%Y"}}{% endcapture %}
       {% if currentyear != year %}
         {% unless forloop.first %}
-        <ul>
         {% endunless %}
+        <ul>
           <h5>{{ currentyear }}</h5>
         </ul>
         {% capture year %}{{currentyear}}{% endcapture %} 
