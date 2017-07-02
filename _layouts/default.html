@@ -13,7 +13,12 @@
       <div class="masthead">
         <div class="container">
           <h3 class="masthead-title">
-            <div class="header-logo">{% include logo.html %}</div>
+            <a href="{{ '' | prepend: site.baseurl | prepend: site.url | append: '/' }}" 
+            title="{{ site.title }}">
+            <img 
+              src="{{ site.logourl | prepend: site.baseurl | prepend: site.url }}"
+              alt="{{ site.title }}" />
+            </a>
             <a href="/" title="Home">{{ site.title }}</a>
             <small>{{ site.tagline }}</small>
           </h3>
