@@ -16,7 +16,10 @@ title: Home
       </a>
     </h1>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>{{ post.tags }}
+    <span class="post-date">{{ post.date | date_to_string }}</span>
+    {% for tag in post.tags %}
+      <a href="{{ tag[0] | prepend: '/tags/#' | prepend: site.baseurl }}">{{ tag[0] }} ({{ tag[1] | size }}) </a>
+    {% endfor %}
 
     <!--{{ post.content | truncatewords: 80 }}-->
     {{ post.excerpt }}
