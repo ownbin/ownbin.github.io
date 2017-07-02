@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Blog Archive
+title: Archive
 banner_image: sample-banner-image-3.jpg
 ---
 
