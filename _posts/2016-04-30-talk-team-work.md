@@ -2,7 +2,6 @@
 layout: post
 title: 浅谈提高团队成员的工作积极性
 tags: life team
-banner_image: banner-image-1.jpg
 ---
 
 <p class="message">

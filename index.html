@@ -8,6 +8,8 @@ title: Home
   <div class="post">
     {% if post.banner_image %}
       <a href="{{ post.url }}"><img src="{{ "/assets/images/" | append: post.banner_image }}" alt="{{ post.title }}"></a>
+    {% else %}
+      <img src="/assets/images/banner-image-1.jpg">
     {% endif %}
     <h1 class="post-title">
       <!--<a href="{{ site.baseurl }}/{{ post.url }}">-->
