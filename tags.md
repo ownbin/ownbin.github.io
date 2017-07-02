@@ -9,6 +9,7 @@ banner_image: sample-banner-image-3.jpg
   {% for tag in site.tags %}
     <a href="{{ tag[0] | prepend: '/tags/#' | prepend: site.baseurl }}">{{ tag[0] }} </a>
   {% endfor %}
+  <hr>
   
   <!-- tag post -->
   {% for tag in site.tags %} 
