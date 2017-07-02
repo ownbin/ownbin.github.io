@@ -12,7 +12,7 @@ banner_image: sample-banner-image-3.jpg
       {% unless forloop.first %}
       </ul>
       {% endunless %}
-      <h4>{{ currentyear }}</h4>
+      <h3>{{ currentyear }}</h3>
       <ul class="tags-expo-posts">
       {% capture year %}{{currentyear}}{% endcapture %} 
     {% endif %}
