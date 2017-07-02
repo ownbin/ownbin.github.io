@@ -11,7 +11,7 @@ tagline:             'Blog of Ownbin'
 description:         'Just some records, have fun!.'
 url:                 'https://ownbin.me'  # the base hostname & protocol for your site
 baseurl:             ''  # the subpath of your site, e.g. /blog/
-logourl: /assets/images/logo.png # Site logo
+logourl:              /assets/images/logo.png # Site logo
 paginate:            5
 
 # About/contact
