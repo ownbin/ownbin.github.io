@@ -1,38 +1,37 @@
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
-relative_permalinks: false
+permalink:            pretty
+relative_permalinks:  false
 
 # Setup
-title:               'Ownbin'
-tagline:             'Blog of Ownbin'
+title:                'Ownbin'
+tagline:              'Blog of Ownbin'
 #description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-description:         'Just some records, have fun!.'
-url:                 'https://ownbin.me'  # the base hostname & protocol for your site
-baseurl:             ''  # the subpath of your site, e.g. /blog/
+description:          'Just some records, have fun!'
+url:                  'https://ownbin.me'  # the base hostname & protocol for your site
+baseurl:              ''  # the subpath of your site, e.g. /blog/
 logourl:              /assets/images/logo.png # Site logo
-paginate:            5
+paginate:             5
 
 # About/contact
 author:
-  gravatar: 3c2986ad7ac1f2230ea3596f44563328 # md5 hash of your email address
-  name:              Ownbin Ho
-  url:               https://twitter.com/ownbin
-  email:             ownbin@hotmail.com
+  name:               Ownbin Ho
+  url:                https://twitter.com/ownbin
+  email:              ownbin@hotmail.com
   contact:
-    linkedin:  https://www.linkedin.com/
-    github:    https://github.com/ownbin
+    linkedin:         https://www.linkedin.com/
+    github:           https://github.com/ownbin
     # facebook:  <hide>
-    twitter:   https://twitter.com/2222
-    weibo:     http://weibo.com/22222
-    email:     http://www.google.com/
+    twitter:          https://twitter.com/2222
+    weibo:            http://weibo.com/22222
+    email:            http://www.google.com/
 
 # Custom vars
-version:             1.0.0
+version:              1.0.0
 
 sass:
-  style: compressed
-  sass_dir: assets/css/_sass
+  style:              compressed
+  sass_dir:           assets/css/_sass
 
-tag_page: '/tags/'
+tag_page:             '/tags/'
