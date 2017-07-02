@@ -26,3 +26,5 @@ version:             1.0.0
 sass:
   style: compressed
   sass_dir: assets/css/_sass
+
+tag_page: '/tags/'
