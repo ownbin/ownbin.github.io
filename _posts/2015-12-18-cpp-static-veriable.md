@@ -5,6 +5,7 @@ tags: programming C++
 ---
 
 想到一个问题，顺便梳理了下答案。代码如下：
+
 ```
 class A
 {
