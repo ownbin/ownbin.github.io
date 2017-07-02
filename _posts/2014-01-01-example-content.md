@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Example content
+banner_image: banner-image-4.jpg
 ---
 
 
