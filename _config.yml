@@ -25,4 +25,4 @@ version:             1.0.0
 
 sass:
   style: compressed
-  sass_dir: _sass
+  sass_dir: assets/css/_sass
