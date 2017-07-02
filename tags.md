@@ -13,7 +13,7 @@ banner_image: sample-banner-image-1.jpg
   <hr>
   <div class="tags-expo-section">
     {% for tag in site.tags %}
-      <h3 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h3>
+      <h2 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h2>
       <ul class="tags-expo-posts">
         {% for post in tag[1] %}
           <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">

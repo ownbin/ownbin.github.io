@@ -4,6 +4,7 @@ title: Blog Archive
 banner_image: sample-banner-image-3.jpg
 ---
 
+<div class="tags-expo">
 <div class="tags-expo-section">
   {% for post in site.posts %}
     {% capture currentyear %}{{post.date | date: "%Y"}}{% endcapture %}
@@ -11,7 +12,7 @@ banner_image: sample-banner-image-3.jpg
       {% unless forloop.first %}
       </ul>
       {% endunless %}
-      <h3>{{ currentyear }}</h3>
+      <h4>{{ currentyear }}</h4>
       <ul class="tags-expo-posts">
       {% capture year %}{{currentyear}}{% endcapture %} 
     {% endif %}
@@ -22,4 +23,5 @@ banner_image: sample-banner-image-3.jpg
       </li>
     </a>
   {% endfor %}
+</div>
 </div>
