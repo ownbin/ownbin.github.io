@@ -7,7 +7,7 @@ banner_image: sample-banner-image-3.jpg
 <div>
   <!-- tag cloud -->
   {% for tag in site.tags %}
-    <a href="{{ tag[0] | prepend: '/tags/#' | prepend: site.baseurl }}">{{ tag[0] }} </a>
+    <a href="{{ tag[0] | prepend: '/tags/#' | prepend: site.baseurl }}">{{ tag[0] }} ({{ tag[1].length }}) </a>
   {% endfor %}
   <hr>
   
