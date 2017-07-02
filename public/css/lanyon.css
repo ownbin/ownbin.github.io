@@ -602,13 +602,10 @@ a.pagination-item:hover {
 }
 
 .masthead .header-logo {
-  min-height: 44px;
-  padding-right: 10px;
-  /*@include column(1);*/
-  text-align: center;
-}
-
-.masthead .header-logo img {
-  text-align: center;
-  margin: 0 auto; 
+  height: 30px;
+  width: auto;
+  vertical-align: text-bottom;
+  display: inline;
+  padding: 0;
+  margin: 0;
 }
