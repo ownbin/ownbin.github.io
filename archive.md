@@ -4,17 +4,22 @@ title: Blog Archive
 banner_image: sample-banner-image-3.jpg
 ---
 
-<div>
+<div class="tags-expo-section">
   {% for post in site.posts %}
     {% capture currentyear %}{{post.date | date: "%Y"}}{% endcapture %}
     {% if currentyear != year %}
       {% unless forloop.first %}
       </ul>
       {% endunless %}
-      <h5>{{ currentyear }}</h5>
-      <ul>
+      <h3>{{ currentyear }}</h3>
+      <ul class="tags-expo-posts">
       {% capture year %}{{currentyear}}{% endcapture %} 
     {% endif %}
-    <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+    <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
+      <li>
+        {{ post.title }}
+        <small class="post-date">{{ post.date | date_to_string }}</small>
+      </li>
+    </a>
   {% endfor %}
 </div>
