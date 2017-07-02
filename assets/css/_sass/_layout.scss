@@ -27,9 +27,11 @@
 @media (min-width: 38em) {
   .container {
     max-width: 32rem;
+    /* logo栏固定时使用
     &.content {
       padding-top: 6.5rem;
     }
+    */
   }
 }
 @media (min-width: 56em) {
