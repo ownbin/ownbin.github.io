@@ -17,15 +17,14 @@ paginate:             5
 # About/contact
 author:
   name:               Ownbin Ho
-  url:                https://twitter.com/ownbin
-  email:              ownbin@hotmail.com
+  url:                https://twitter.com/ownbin     
   contact:
     linkedin:         https://www.linkedin.com/
     github:           https://github.com/ownbin
     # facebook:  <hide>
-    twitter:          https://twitter.com/2222
-    weibo:            http://weibo.com/22222
-    email:            http://www.google.com/
+    twitter:          https://twitter.com/ownbin
+    weibo:            http://weibo.com/ownbin
+    email:            ownbin@hotmail.com
 
 # Custom vars
 version:              1.0.0
