@@ -306,11 +306,12 @@ a.sidebar-nav-item:focus {
  * Each post is wrapped in `.post` and is used on default and post layouts. Each
  * page is wrapped in `.page` and is only used on the page layout.
  */
-
-.page,
-.post {
-  margin-bottom: 4em;
-  font-size: 0.9rem;
+@media (min-width: 38em) {
+  .page,
+  .post {
+    margin-bottom: 4em;
+    font-size: 0.9rem;
+  }
 }
 
 /* Blog post or page title */
