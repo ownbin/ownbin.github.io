@@ -34,8 +34,3 @@ sass:
   sass_dir:           assets/css/_sass
 
 tag_page:             '/tags/'
-
-markdown: kramdown
-
-kramdown:
-  input: GFM
