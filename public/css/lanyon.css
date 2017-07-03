@@ -310,6 +310,7 @@ a.sidebar-nav-item:focus {
 .page,
 .post {
   margin-bottom: 4em;
+  font-size: 0.8rem;
 }
 
 /* Blog post or page title */
