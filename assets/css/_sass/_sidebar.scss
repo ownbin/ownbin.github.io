@@ -28,6 +28,12 @@
   background-color: #202020;
   -webkit-transition: all .3s ease-in-out;
           transition: all .3s ease-in-out;
+
+  @if $theme-color != $default {
+    background-color: $theme-color;
+  } @else {
+    background-color: darken($theme-color-dark, 10%);
+  }
 }
 @media (min-width: 30em) {
   .sidebar {
