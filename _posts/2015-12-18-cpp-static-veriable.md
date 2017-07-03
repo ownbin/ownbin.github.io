@@ -6,7 +6,7 @@ tags: programming C++
 
 想到一个问题，顺便梳理了下答案。代码如下：
 
-{% highlight c++ %}
+'''c++
 class A
 {
     public:
@@ -42,7 +42,7 @@ int main()
     sleep(1000);
     return 0;
 }
-{% endhighlight %}
+'''
 
 **问题：**
 
