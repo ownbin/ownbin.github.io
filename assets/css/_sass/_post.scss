@@ -1,3 +1,10 @@
+/*
+ * Posts and pages
+ *
+ * Each post is wrapped in `.post` and is used on default and post layouts. Each
+ * page is wrapped in `.page` and is only used on the page layout.
+ */
+ 
 .page,
 .post {
     margin-bottom: 4em;
@@ -18,8 +25,13 @@
 
     /* Blog post or page title */
   .page-title,
+  .post-title,
+  .post-title a {
+    color: #303030;
+  }
+  
+  .page-title,
   .post-title {
-    /*color: #303030;*/
     margin-top: 0;
   }
 
@@ -62,6 +74,7 @@
   color: #999;
 }
 .related-posts li a:hover {
+  /*color: #268bd2;*/
   color: $theme-color;
   text-decoration: none;
 }
