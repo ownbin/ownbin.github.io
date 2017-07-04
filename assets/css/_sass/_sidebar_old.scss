@@ -162,10 +162,43 @@ a.sidebar-nav-item:focus {
 #sidebar-checkbox:checked + .sidebar {
   visibility: visible;
 }
+
+/* 注释 改为根据 reverse-layout overlay-sidebar 来生成
 #sidebar-checkbox:checked ~ .sidebar,
 #sidebar-checkbox:checked ~ .wrap,
 #sidebar-checkbox:checked ~ .sidebar-toggle {
   -webkit-transform: translateX(14rem);
       -ms-transform: translateX(14rem);
           transform: translateX(14rem);
+}
+*/
+
+#sidebar-checkbox:checked ~ .wrap {
+  -webkit-transform: translateX(if($overlay-sidebar,0,if($reverse-layout, -14rem, 14rem)));
+      -ms-transform: translateX(if($overlay-sidebar,0,if($reverse-layout, -14rem, 14rem)));
+          transform: translateX(if($overlay-sidebar,0,if($reverse-layout, -14rem, 14rem)));
+}
+
+#sidebar-checkbox:checked ~ .sidebar-toggle {
+  -webkit-transform: translateX(if($reverse-layout, -14rem, 14rem));
+      -ms-transform: translateX(if($reverse-layout, -14rem, 14rem));
+          transform: translateX(if($reverse-layout, -14rem, 14rem));
+
+  @if $overlay-sidebar {
+    box-shadow: 0 0 0 .25rem #fff;
+  }
+}
+
+#sidebar-checkbox:checked ~ .sidebar {
+  -webkit-transform: translateX(if($reverse-layout, -14rem, 14rem));
+      -ms-transform: translateX(if($reverse-layout, -14rem, 14rem));
+          transform: translateX(if($reverse-layout, -14rem, 14rem));
+
+  @if $overlay-sidebar {
+    @if $reverse-layout {
+      box-shadow: -.25rem 0 .5rem rgba(0,0,0,.1);
+    } @else {
+      box-shadow: .25rem 0 .5rem rgba(0,0,0,.1);
+    }
+  }
 }
