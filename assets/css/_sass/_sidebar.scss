@@ -155,13 +155,12 @@ a.sidebar-nav-item:focus {
     position: fixed;
   }
 }
-/*
+
 @media print {
   .sidebar-toggle {
     display: none;
   }
 }
-*/
 
 /* Slide effect
  *
@@ -190,7 +189,7 @@ a.sidebar-nav-item:focus {
 }
 
 #sidebar-checkbox:checked + .sidebar {
-  z-index: 10;
+  /*z-index: 10;*/
   visibility: visible;
 }
 
