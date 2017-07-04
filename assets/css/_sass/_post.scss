@@ -69,7 +69,8 @@
 }
 .related-posts li a:hover {
   @if $theme-color != $default {
-    color: $theme-color;
+    /*color: $theme-color;*/
+    color: #268bd2;
   } @else {
     color: #268bd2;
   }
