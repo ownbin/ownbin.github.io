@@ -189,7 +189,7 @@ a.sidebar-nav-item:focus {
 }
 
 #sidebar-checkbox:checked + .sidebar {
-  /*z-index: 10;*/
+  z-index: 10;
   visibility: visible;
 }
 
