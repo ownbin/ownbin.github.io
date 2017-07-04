@@ -31,7 +31,12 @@
   }
 
   .post-title a {
-    color: $theme-color;
+    @if $theme-color != $default 
+    {
+      color: $theme-color; 
+    } @else {
+      color: #303030;
+    }
   }
 
   /* Meta data line below post title */
