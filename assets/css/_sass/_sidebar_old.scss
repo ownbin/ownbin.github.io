@@ -1,3 +1,5 @@
+/* old style of sidebar */
+
 /*
  * Sidebar
  *
@@ -163,7 +165,7 @@ a.sidebar-nav-item:focus {
   visibility: visible;
 }
 
-/* 注释 改为根据 reverse-layout overlay-sidebar 来生成
+/* replaced by the codes below
 #sidebar-checkbox:checked ~ .sidebar,
 #sidebar-checkbox:checked ~ .wrap,
 #sidebar-checkbox:checked ~ .sidebar-toggle {
