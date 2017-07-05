@@ -2,6 +2,7 @@
 layout: post
 title: C++ 静态变量的内存分配和初始化
 tags: programming C++
+comment_id: 1
 ---
 
 想到一个问题，顺便梳理了下答案。代码如下：
