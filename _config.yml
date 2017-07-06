@@ -34,4 +34,5 @@ sass:
   sass_dir:           assets/css/_sass
 
 tag_page:             '/tags/'
-repo_name:            'ownbin/ownbin.github.io' # for getting the comments on github issues
+#repo_name:            'ownbin/ownbin.github.io' # for getting the comments on github issues
+repo_name:            'dwilliamson/donw.io'
