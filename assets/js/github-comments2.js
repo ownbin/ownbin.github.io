@@ -21,8 +21,8 @@ function ParseLinkHeader(link)
 
 function DoGithubComments(comment_id, page_id)
 {
-    //var repo_name = "ownbin/ownbin.github.io";
-    var repo_name = "dwilliamson/donw.io";
+    var repo_name = "ownbin/ownbin.github.io";
+    //var repo_name = "dwilliamson/donw.io";
 
     if (page_id === undefined)
         page_id = 1;
