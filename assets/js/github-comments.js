@@ -62,7 +62,7 @@ function load_github_comments(repo_name, comment_id, page_id)
                     t += "<img src='" + comment.user.avatar_url + "' width='24px'>";
                     t += "<b><a href='" + comment.user.html_url + "'>" + comment.user.login + "</a></b>";
                     //t += " posted at ";
-                    t += " posted at <i class='fa fa-clock-o' aria-hidden='true'></i>";
+                    t += " <i class='fa fa-clock-o' aria-hidden='true'></i> ";
                     t += "<em>" + date.toUTCString() + "</em>";
                     t += "<div id='gh-comment-hr'></div>";
                     t += comment.body_html;
