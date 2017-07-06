@@ -4,7 +4,8 @@ title: Archive
 banner_image: sample-banner-image-3.jpg
 ---
 
-<div class="tags-expo tags-expo-section">
+<div class="tags-expo">
+<div class="tags-expo-section">
 
 <ul>
 {% for post in site.posts %}
@@ -23,4 +24,5 @@ banner_image: sample-banner-image-3.jpg
 {% endfor %}
 </ul>
 
+</div>
 </div>
