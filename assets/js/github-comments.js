@@ -5,7 +5,12 @@ var CurrentPage = 0;
 
 function parse_link_header(link)
 {
-    var entries = link.split(",");
+    var entries;
+    if (link)
+    {
+        entries = link.split(",");
+    }
+    
     var links = { };
     for (var i in entries)
     {
