@@ -3,7 +3,7 @@
 
 var CurrentPage = 0;
 
-function ParseLinkHeader(link)
+function parse_link_header(link)
 {
     var entries = link.split(",");
     var links = { };
@@ -19,7 +19,7 @@ function ParseLinkHeader(link)
     return links;
 }
 
-function DoGithubComments(repo_name, comment_id, page_id)
+function load_github_comments(repo_name, comment_id, page_id)
 {
     //var repo_name = "dwilliamson/donw.io";
 
@@ -65,7 +65,7 @@ function DoGithubComments(repo_name, comment_id, page_id)
                 });
 
                 // Setup comments button if there are more pages to display
-                var links = ParseLinkHeader(jqXHR.getResponseHeader("Link"));
+                var links = parse_link_header(jqXHR.getResponseHeader("Link"));
                 if ("next" in links)
                 {
                     $("#gh-load-comments").attr("onclick", "DoGithubComments(" + comment_id + "," + (page_id + 1) + ");");
