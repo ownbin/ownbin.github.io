@@ -29,8 +29,10 @@ function load_github_comments(repo_name, comment_id, page_id)
     //var repo_name = "dwilliamson/donw.io";
 
     if (comment_id === undefined)
+    {
         $("#gh-comments-list").append("Comments are not open for this post yet.");
         return;
+    }
 
     if (page_id === undefined)
         page_id = 1;
