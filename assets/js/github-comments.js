@@ -73,7 +73,7 @@ function load_github_comments(repo_name, comment_id, page_id)
                 var links = parse_link_header(jqXHR.getResponseHeader("Link"));
                 if ("next" in links)
                 {
-                    $("#gh-load-comments").attr("onclick", "load_github_comments(" + repo_name + "," + comment_id + "," + (page_id + 1) + ");");
+                    $("#gh-load-comments").attr("onclick", "load_github_comments('" + repo_name + "'," + comment_id + "," + (page_id + 1) + ");");
                     $("#gh-load-comments").show();
                 }
                 else
