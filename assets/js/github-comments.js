@@ -19,10 +19,9 @@ function ParseLinkHeader(link)
     return links;
 }
 
-function DoGithubComments(comment_id, page_id)
+function DoGithubComments(repo_name, comment_id, page_id)
 {
     //var repo_name = "dwilliamson/donw.io";
-    var repo_name = "ownbin/ownbin.github.io";
 
     if (page_id === undefined)
         page_id = 1;

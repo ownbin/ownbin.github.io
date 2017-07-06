@@ -34,3 +34,4 @@ sass:
   sass_dir:           assets/css/_sass
 
 tag_page:             '/tags/'
+repo_name:            'ownbin/ownbin.github.io'
