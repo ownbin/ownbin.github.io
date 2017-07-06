@@ -28,9 +28,11 @@
 }
 
 .btn:hover,.btn:focus {
-  /*background-color:#3d8c38;*/
-  background-color: $theme-color;
+  /*
+  background-color:#3d8c38;
   border:1px solid transparent;
+  */
+  background-color: $theme-color;
   color:#fff;
   text-decoration:none;
   /*border-bottom:none;*/
