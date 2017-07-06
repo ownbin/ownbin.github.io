@@ -9,7 +9,7 @@ title:                'Ownbin'
 tagline:              'Life is a gift'
 #description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
 description:          'Just some records, have fun!'
-url:                  'https://ownbin.me'  # the base hostname & protocol for your site
+url:                  ''  # the base hostname & protocol for your site
 baseurl:              ''  # the subpath of your site, e.g. /blog/
 logourl:              /assets/images/logo.png # Site logo
 paginate:             5
@@ -34,4 +34,4 @@ sass:
   sass_dir:           assets/css/_sass
 
 tag_page:             '/tags/'
-repo_name:            'ownbin/ownbin.github.io'
+repo_name:            'ownbin/ownbin.github.io' # for getting the comments on github issues
