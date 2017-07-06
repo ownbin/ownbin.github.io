@@ -30,8 +30,8 @@ author:
 version:              1.0.0
 
 sass:
+  sass_dir:           _sass
   style:              compressed
-  sass_dir:           assets/css/_sass
 
 tag_page:             '/tags/'
 repo_name:            'ownbin/ownbin.github.io' # for getting the comments on github issues
