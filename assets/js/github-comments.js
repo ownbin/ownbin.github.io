@@ -10,7 +10,7 @@ function parse_link_header(link)
     {
         entries = link.split(",");
     }
-    
+
     var links = { };
     for (var i in entries)
     {
@@ -59,7 +59,7 @@ function load_github_comments(repo_name, comment_id, page_id)
                     var date = new Date(comment.created_at);
 
                     var t = "<div id='gh-comment'>";
-                    t += "<img src='" + comment.user.avatar_url + "' width='48px'>";
+                    t += "<img src='" + comment.user.avatar_url + "' width='32px'>";
                     t += "<b><a href='" + comment.user.html_url + "'>" + comment.user.login + "</a></b>";
                     t += " posted at ";
                     t += "<em>" + date.toUTCString() + "</em>";
