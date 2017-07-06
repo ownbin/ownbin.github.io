@@ -51,7 +51,7 @@ function load_github_comments(repo_name, comment_id, page_id)
 
                 // Add post button to first page
                 if (page_id == 1)
-                    $("#gh-comments-list").append("<a href='" + url + "#new_comment_field' rel='nofollow' class='btn'><i class="icon-comments-alt"></i> Post a comment on Github</a>");
+                    $("#gh-comments-list").append("<a href='" + url + "#new_comment_field' rel='nofollow' class='btn'><i class='icon-comments-alt'></i> Post a comment on Github</a>");
 
                 // Individual comments
                 $.each(comments, function(i, comment) {
