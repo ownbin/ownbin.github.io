@@ -7,7 +7,7 @@ banner_image: sample-banner-image-3.jpg
 <div class="tags-expo">
 <div class="tags-expo-section">
 
-<ul>
+<ul class="tags-expo-posts">
 {% for post in site.posts %}
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
   {% if year != y %}

@@ -16,12 +16,17 @@ banner_image: sample-banner-image-3.jpg
       <ul class="tags-expo-posts">
       {% capture year %}{{currentyear}}{% endcapture %} 
     {% endif %}
+
     <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
       <li>
         {{ post.title }}
         <small class="post-date">{{ post.date | date_to_string }}</small>
       </li>
     </a>
+
+    {% if forloop.last %}
+	    </ul>
+	  {% endif %}
   {% endfor %}
 </div>
 </div>
