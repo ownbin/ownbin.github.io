@@ -1,15 +1,15 @@
 <div class="pagination">
   {% if page.previous %}
     <!--<a class="pagination-item older" href="{{ page.previous.url | prepend: site.baseurl }}"><i class="fa fa-hand-o-left" aria-hidden="true"></i> {{ page.previous.title }}</a>-->
-    <span class="pagination-item older"><strong>Previous </strong><a href="{{ page.previous.url | prepend: site.baseurl }}">{{ page.previous.title }}</a></span>
+    <span class="pagination-item older">Prev <a href="{{ page.previous.url | prepend: site.baseurl }}">{{ page.previous.title }}</a></span>
   {% else %}
-    <span class="pagination-item older">Previous</span>
+    <span class="pagination-item older">Prev</span>
   {% endif %}
 
   {% if page.next %}
     <!--<a class="pagination-item newer" href="{{ page.next.url | prepend: site.baseurl }}">{{ page.next.title }} <i class="fa fa-hand-o-right" aria-hidden="true"></i></a>-->
-    <span class="pagination-item newer"><strong>Next </strong><a href="{{ page.next.url | prepend: site.baseurl }}">{{ page.next.title }}</a></span>
+    <span class="pagination-item newer">Next <a href="{{ page.next.url | prepend: site.baseurl }}">{{ page.next.title }}</a></span>
   {% else %}
-    <span class="pagination-item newer">Next <span class="octicon octicon-mark-github"></span> </span>
+    <span class="pagination-item newer">Next <span class="octicon octicon-mark-github"></span></span>
   {% endif %}
 </div>
