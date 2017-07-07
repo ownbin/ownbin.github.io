@@ -33,7 +33,7 @@
 
   <nav class="sidebar-nav">
     <!-- <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a> -->
-    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="/">Home</a>
+    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="/"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
 
     {% comment %}
       The code below dynamically generates a sidebar nav of pages with
@@ -45,9 +45,7 @@
       {% if node.title != null %}
         {% if node.layout == "page" %}
           <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">
-            {% if node.title == "Home" %}
-              <i class="fa fa-home" aria-hidden="true"></i>
-            {% elsif node.title == "About" %}
+            {% if node.title == "About" %}
               <i class="fa fa-user" aria-hidden="true"></i>
             {% elsif node.title == "Archive" %}
               <i class="fa fa-archive" aria-hidden="true"></i>
