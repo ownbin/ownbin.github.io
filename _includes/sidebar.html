@@ -45,13 +45,13 @@
       {% if node.title != null %}
         {% if node.layout == "page" %}
           <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">
-            {% if node.title == "Home" }
+            {% if node.title == "Home" %}
               <i class="fa fa-home" aria-hidden="true"></i>
-            {% elsif node.title == "About"}
+            {% elsif node.title == "About" %}
               <i class="fa fa-user" aria-hidden="true"></i>
-            {% elsif node.title == "Archive"}
+            {% elsif node.title == "Archive" %}
               <i class="fa fa-archive" aria-hidden="true"></i>
-            {% elsif node.title == "Tags"}
+            {% elsif node.title == "Tags" %}
               <i class="fa fa-tags" aria-hidden="true"></i>
             {% endif %} 
             {{ node.title }}
