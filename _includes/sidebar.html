@@ -47,11 +47,11 @@
           <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">
             {% if node.title == "Home" }
               <i class="fa fa-home" aria-hidden="true"></i>
-            {% else if node.title == "About"}
+            {% elsif node.title == "About"}
               <i class="fa fa-user" aria-hidden="true"></i>
-            {% else if node.title == "Archive"}
+            {% elsif node.title == "Archive"}
               <i class="fa fa-archive" aria-hidden="true"></i>
-            {% else if node.title == "Tags"}
+            {% elsif node.title == "Tags"}
               <i class="fa fa-tags" aria-hidden="true"></i>
             {% endif %}
             {{ node.title }}
