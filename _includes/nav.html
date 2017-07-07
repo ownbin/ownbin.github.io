@@ -8,6 +8,6 @@
   {% if page.next %}
     <strong>Next: </strong> <a class="pagination-item newer" href="{{ page.next.url | prepend: site.baseurl }}">{{ page.next.title }}</a>
   {% else %}
-    <span class="pagination-item newer">Next {% octicon mark-github %}</span>
+    <span class="pagination-item newer">Next <span class="octicon octicon-mark-github"></span> </span>
   {% endif %}
 </div>
