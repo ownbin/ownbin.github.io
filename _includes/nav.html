@@ -1,0 +1,13 @@
+<div class="pagination">
+  {% if page.previous %}
+    <strong>Previous: </strong> <a class="pagination-item older" href="{{ page.previous.url | prepend: site.baseurl }}">{{ page.previous.title }}</a>
+  {% else %}
+    <span class="pagination-item older">Previous</span>
+  {% endif %}
+
+  {% if page.next %}
+    <strong>Next: </strong> <a class="pagination-item newer" href="{{ page.next.url | prepend: site.baseurl }}">{{ page.next.title }}</a>
+  {% else %}
+    <span class="pagination-item newer">Next {% octicon mark-github %}</span>
+  {% endif %}
+</div>
