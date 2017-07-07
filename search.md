@@ -5,7 +5,7 @@ banner_image: sample-banner-image-1.jpg
 ---
 <div class="tags-expo">
   <div class="tags-expo-list">
-<span class="octicon octicon-mark-github"></span>
+<i class="fa fa-github fa-3x" aria-hidden="true"></i>
 <div id="search-container">
   <input type="text" id="search-input" placeholder="Type here...">
   <div class="tags-expo-section">
