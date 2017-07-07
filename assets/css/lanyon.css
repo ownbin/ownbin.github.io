@@ -129,7 +129,7 @@ h1, h2, h3, h4, h5, h6 {
  * Super lightweight (HTML-wise) blog pagination. `span`s are provide for when
  * there are no more previous or next posts to show.
  */
-.navigation
+.navigation,
 .pagination {
   overflow: hidden; /* clearfix */
   margin-left: -1rem;
