@@ -27,7 +27,8 @@ title: Home
 
     <!--{{ post.content | truncatewords: 80 }}-->
     {{ post.excerpt | markdownify }}
-    <p><a class="post-link readmore" href="{{ post.url }}">Read more »</a></p>
+    <!--<p><a class="post-link readmore" href="{{ post.url }}">Read more »</a></p>-->
+    <p><a class="post-link readmore" href="{{ post.url }}">Read more <i class="fa fa-hand-o-right" aria-hidden="true"></i></a></p>
   </div>
   {% endfor %}
 </div>
