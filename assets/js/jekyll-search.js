@@ -191,8 +191,8 @@ function e(t, n, r) {
                         return ! 1
                     }
                 }
-                function emptyResultsContainer() {
-                    opt.resultsContainer.innerHTML = ""
+                function emptyResultsContainer(length) {
+                    opt.resultsContainer.innerHTML = '<p class="">Found ' + length + ' result</p>'
                 }
                 function appendToResultsContainer(text) {
                     opt.resultsContainer.innerHTML += text
