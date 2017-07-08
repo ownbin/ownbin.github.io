@@ -26,3 +26,7 @@ http://cellier.me/
 ## js clock
 
 http://knaman2609.github.io/clean/
+
+## color
+
+http://aronbordin.com/neo-hpstr-jekyll-theme/
