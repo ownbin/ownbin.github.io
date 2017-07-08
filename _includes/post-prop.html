@@ -1,4 +1,6 @@
 
+{% if include.page %}{% assign page = include.page %}{% endif %}
+
 <span class="post-date"><i class="fa fa-calendar" title="Date published"></i> {{ page.date | date_to_string }}</span>
 <!--
   {% for tag in page.tags %}
