@@ -3,16 +3,12 @@ layout: page
 title: Search
 ---
 
-<div>In case you don't want to use the search box provided by your browser:</div>
-<br/>
+<div>Find something quickly, start typing to see some results.</div><br/>
 <div id="search-container">
   <input type="text" id="search-input" placeholder="Type here...">
 </div>
 <!--<ul id="results-container">Start typing to see some results</ul>-->
-<div id="results-container">Start typing to see some results</div>
-
-<div id="results"></div>
-<ul id="search_results"></ul>
+<div id="results-container"></div>
 
 <script src="/assets/js/jekyll-search.js" type="text/javascript"></script>
 <script type="text/javascript">
