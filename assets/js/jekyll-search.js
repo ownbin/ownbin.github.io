@@ -192,7 +192,7 @@ function e(t, n, r) {
                     }
                 }
                 function emptyResultsContainer(length) {
-                    opt.resultsContainer.innerHTML = '<p class="">Found ' + length + ' result</p>'
+                    opt.resultsContainer.innerHTML = ""
                 }
                 function appendToResultsContainer(text) {
                     opt.resultsContainer.innerHTML += text
@@ -205,6 +205,8 @@ function e(t, n, r) {
                 }
                 function render(results) {
                     if (emptyResultsContainer(), 0 == results.length) return appendToResultsContainer(opt.noResultsText);
+                    resultsText = 'Found ' + results.length + (results.length == 1 ? ' result' : ' results');
+                    appendToResultsContainer(resultsText);
                     for (var i = 0; i < results.length; i++) appendToResultsContainer(templater.render(opt.searchResultTemplate, results[i]))
                 }
                 var self = this,
