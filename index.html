@@ -22,10 +22,10 @@ title: Home
     {% endif %}
 
     {% if post.description.size > 140 %}
-      {{ post.description | markdownify }}
+      {{ post.description | markdownify | remove: '<p>' | remove: '</p>' }}
     {% else %}
       <!--{{ post.content | truncatewords: 80 }}-->
-      {{ post.excerpt | markdownify }}
+      {{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}
     {% endif %} 
     <a href="{{ post.url }}" title="Read more">Read more...</a>
   </div>
