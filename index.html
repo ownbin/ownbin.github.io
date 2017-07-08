@@ -28,6 +28,7 @@ title: Home
     {% if post.description.size > 140 %}
       {{ post.description | markdownify }}
     {% else %}
+      <!--{{ post.content | truncatewords: 80 }}-->
       {{ post.excerpt | markdownify }}
     {% endif %}
     <a href="{{ post.url }}" title="Read more">Read more...</a>
