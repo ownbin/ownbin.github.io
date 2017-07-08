@@ -21,16 +21,12 @@ title: Home
       <a href="{{ post.url }}"><img src="{{ "/assets/images/" | append: post.banner_image }}" alt="{{ post.title }}"></a>
     {% endif %}
 
-    <!--{{ post.content | truncatewords: 80 }}
-    {{ post.excerpt | markdownify }}
-    <p><a class="post-link readmore" href="{{ post.url }}">Read more »</a></p>-->
-
     {% if post.description.size > 140 %}
       {{ post.description | markdownify }}
     {% else %}
       <!--{{ post.content | truncatewords: 80 }}-->
       {{ post.excerpt | markdownify }}
-    {% endif %}
+    {% endif %} 
     <a href="{{ post.url }}" title="Read more">Read more...</a>
   </div>
   {% endfor %}
