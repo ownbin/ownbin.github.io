@@ -205,7 +205,7 @@ function e(t, n, r) {
                 }
                 function render(results) {
                     if (emptyResultsContainer(), 0 == results.length) return appendToResultsContainer(opt.noResultsText);
-                    var resultsText = 'Found ' + results.length + (results.length == 1 ? ' result' : ' results');
+                    var resultsText = '<p>Found ' + results.length + (results.length == 1 ? ' result' : ' results') + '</p>';
                     appendToResultsContainer(resultsText);
                     for (var i = 0; i < results.length; i++) appendToResultsContainer(templater.render(opt.searchResultTemplate, results[i]))
                 }
@@ -216,7 +216,7 @@ function e(t, n, r) {
                     resultsContainer: null,
                     dataSource: [],
                     searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
-                    noResultsText: "No results found",
+                    noResultsText: "<p>No results found</p>",
                     limit: 10,
                     fuzzy: !1
                 };
