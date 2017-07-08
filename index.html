@@ -19,7 +19,6 @@ title: Home
       {% if forloop.first %} | {% endif %}
       <a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}" class="post-tag">{{ tag }}</a>
     {% endfor %}
-    {% endif %}
 
     {% if post.banner_image %}
       <a href="{{ post.url }}"><img src="{{ "/assets/images/" | append: post.banner_image }}" alt="{{ post.title }}"></a>
