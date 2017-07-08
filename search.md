@@ -4,12 +4,11 @@ title: Search
 ---
 
 <div>In case you don't want to use the search box provided by your browser:</div>
-
+<br/>
 <div id="search-container">
   <input type="text" id="search-input" placeholder="Type here...">
 </div>
-<br/>
-<ul id="results-container"><small>Start typing to see some results</small></ul>
+<ul id="results-container">Start typing to see some results</ul>
 
 <script src="/assets/js/jekyll-search.js" type="text/javascript"></script>
 <script type="text/javascript">
