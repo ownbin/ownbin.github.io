@@ -1,19 +1,11 @@
 ---
 layout: page
 title: Search
-banner_image: sample-banner-image-1.jpg
 ---
-<div class="tags-expo">
-  <div class="tags-expo-list">
-<i class="fa fa-github fa-3x" aria-hidden="true"></i>
+
 <div id="search-container">
   <input type="text" id="search-input" placeholder="Type here...">
-  <div class="tags-expo-section">
     <ul id="results-container" class="tags-expo-posts"><small>Start typing to see some results</small></ul>
-  </div>
-</div>
-
-  </div>
 </div>
 
 <script src="/assets/js/jekyll-search.js" type="text/javascript"></script>
