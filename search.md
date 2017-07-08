@@ -7,8 +7,9 @@ title: Search
 
 <div id="search-container">
   <input type="text" id="search-input" placeholder="Type here...">
-    <ul id="results-container"><small>Start typing to see some results</small></ul>
 </div>
+
+<ul id="results-container"><small>Start typing to see some results</small></ul>
 
 <script src="/assets/js/jekyll-search.js" type="text/javascript"></script>
 <script type="text/javascript">
