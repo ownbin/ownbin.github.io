@@ -12,7 +12,7 @@ layout: default
 <!--
   {% for tag in page.tags %}
     {% if forloop.first %} | {% endif %}
-    <a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}" class="post-tag">{{ tag }}</a>
+    <a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}" title="Pages tagged {{ tag }}" class="post-tag">{{ tag }}</a>
   {% endfor %}
 -->
 
