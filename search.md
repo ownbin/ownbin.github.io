@@ -3,8 +3,7 @@ layout: page
 title: Search
 ---
 
-<div>Find something quickly, start typing to see some results.</div>
-<hr>
+<div>Find something quickly, start typing to see some results.<br/></div>
 <div id="search-container">
   <input type="text" id="search-input" placeholder="Type here...">
 </div>
