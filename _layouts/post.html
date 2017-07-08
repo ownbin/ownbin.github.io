@@ -17,7 +17,8 @@ layout: default
 -->
 
   {% for tag in page.tags %}
-    {% if forloop.first %} <i class="fa fa-tags" title="page tags"></i> {% endif %}
+    {% if forloop.first %} <i class="fa fa-tags" title="page tags"></i> 
+    {% endif %}
     <a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | cgi_escape }}" title="Pages tagged {{ tag }}" rel="tag">{{ tag }}</a>
     {% unless forloop.last %}, {% endunless %}
   {% endfor %}
