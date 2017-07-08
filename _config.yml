@@ -24,7 +24,7 @@ author:
     # facebook:  <hide>
     twitter:          https://twitter.com/ownbin
     weibo:            http://weibo.com/ownbin
-    email:            https://ownbin@hotmail.com
+    email:            mailto:ownbin@hotmail.com
 
 # Custom vars
 version:              1.0.0
