@@ -21,10 +21,11 @@ title: Home
       <a href="{{ post.url }}"><img src="{{ "/assets/images/" | append: post.banner_image }}" alt="{{ post.title }}"></a>
     {% endif %}
 
-    <!--{{ post.content | truncatewords: 80 }}-->
+    <!--{{ post.content | truncatewords: 80 }}
     {{ post.excerpt | markdownify }}
-    <!--<p><a class="post-link readmore" href="{{ post.url }}">Read more <i class="fa fa-hand-o-right" aria-hidden="true"></i></a></p>-->
-    <p><a class="post-link readmore" href="{{ post.url }}">Read more »</a></p>
+    <p><a class="post-link readmore" href="{{ post.url }}">Read more »</a></p>-->
+
+     {% if post.description.size > 140 %}{{ post.description | markdownify | remove: '<p>' | remove: '</p>' }}{% else %}{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}{% endif %} <a href="{{ site.url }}{{ post.url }}" title="Read more"><strong>Read more...</strong></a>
   </div>
   {% endfor %}
 </div>
