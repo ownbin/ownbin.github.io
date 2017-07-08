@@ -4,6 +4,7 @@ title: Search
 ---
 
 <div>Find something quickly, start typing to see some results.</div>
+<hr>
 <div id="search-container">
   <input type="text" id="search-input" placeholder="Type here...">
 </div>
@@ -16,7 +17,7 @@ title: Search
     searchInput: document.getElementById('search-input'),
     resultsContainer: document.getElementById('results-container'),
     dataSource: '{{ site.baseurl }}/search.json',
-    //searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}<\/a><\/li>',
+    /*searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}<\/a><\/li>',*/
     searchResultTemplate: '<p><a href="{url}" title="{desc}">{title}<\/a><\/p>',
     noResultsText: '<p>No results found</p>',
     limit: 10,
