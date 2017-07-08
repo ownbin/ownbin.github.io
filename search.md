@@ -3,9 +3,11 @@ layout: page
 title: Search
 ---
 
+<div>In case you don't want to use the search box provided by your browser:</div>
+
 <div id="search-container">
   <input type="text" id="search-input" placeholder="Type here...">
-    <ul id="results-container" class="tags-expo-posts"><small>Start typing to see some results</small></ul>
+    <ul id="results-container"><small>Start typing to see some results</small></ul>
 </div>
 
 <script src="/assets/js/jekyll-search.js" type="text/javascript"></script>
@@ -14,7 +16,7 @@ title: Search
     searchInput: document.getElementById('search-input'),
     resultsContainer: document.getElementById('results-container'),
     dataSource: '{{ site.baseurl }}/search.json',
-    searchResultTemplate: '<li class="post-title"><a href="{url}" title="{desc}">{title}<\/a><\/li>',
+    searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}<\/a><\/li>',
     noResultsText: 'No results found',
     limit: 10,
     fuzzy: true,

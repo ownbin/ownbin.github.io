@@ -17,7 +17,7 @@ http://mazhuang.org/2017/04/09/a-difficult-decision/
 
 ## 统计
 
-
+disqus.com/count.js
 
 ## 图片
 
