@@ -1,12 +1,12 @@
 <div class="navigation">
   {% if page.previous %}
-    <a class="pagination-item older" href="{{ page.previous.url | prepend: site.baseurl }}"><i class="fa fa-hand-o-left" aria-hidden="true"></i> {{ page.previous.title }}</a>
+    <a class="pagination-item older" href="{{ page.previous.url | prepend: site.baseurl }}">« {{ page.previous.title }}</a>
   {% else %}
     <span class="pagination-item older">Prev</span>
   {% endif %}
 
   {% if page.next %}
-    <a class="pagination-item newer" href="{{ page.next.url | prepend: site.baseurl }}"><i class="fa fa-hand-o-right" aria-hidden="true"> {{ page.next.title }}</i></a>
+    <a class="pagination-item newer" href="{{ page.next.url | prepend: site.baseurl }}">» {{ page.next.title }}</a>
   {% else %}
     <span class="pagination-item newer">Next</span>
   {% endif %}
