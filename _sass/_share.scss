@@ -1,0 +1,20 @@
+.twitter {
+    background: #4fafed;
+}
+
+.facebook {
+    background: #4361b3;
+}
+
+.twitter,
+.facebook {
+    display: inline;
+    vertical-align: middle;
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 3px;
+    margin-left: 5px;
+    text-decoration: none;
+}
