@@ -7,6 +7,8 @@ http://xinqiu.me/?q=ios
 
 https://nianxi.net/
 
+https://willianjusten.com.br/cards-jekyll-template/
+
 ## 项目页
 
 https://github.com/TaylanTatli/Moon
@@ -30,3 +32,7 @@ http://knaman2609.github.io/clean/
 ## color
 
 http://aronbordin.com/neo-hpstr-jekyll-theme/
+
+## good homepage 
+
+http://jekyllthemes.org/themes/airspace/
