@@ -12,7 +12,6 @@
     <div class="wrap">
       <div class="masthead">
         <div class="container">
-          <div class="title">
           <h3 class="masthead-title">
             <!--
             <a href="/" title="{{ site.title }}">
@@ -21,15 +20,15 @@
             -->
             <a href="/" title="Home"><i class="fa fa-github" aria-hidden="true"></i> {{ site.title }}</a>
             <small>{{ site.tagline }}</small>
-          </h3>
-          </div>
-          <ul class="navbar">
+
+            <ul class="navbar">
               <li><a href="{{ '/about' | prepend: site.baseurl }}">about</a></li>
               <li><a href="{{ '/archive' | prepend: site.baseurl }}">archive</a></li>
               <li><a href="{{ '/tags' | prepend: site.baseurl }}">tags</a></li>
               <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}" target="_blank">feed</a></li>
               <li><a href="{{ '/search' | prepend: site.baseurl }}"><i class="fa fa-search" aria-hidden="true"></i></a></li>
           </ul>
+          </h3>
         </div>
       </div>
 
