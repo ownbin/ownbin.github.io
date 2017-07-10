@@ -21,6 +21,13 @@
             <a href="/" title="Home"><i class="fa fa-github" aria-hidden="true"></i> {{ site.title }}</a>
             <small>{{ site.tagline }}</small>
           </h3>
+          <ul class="navbar">
+              <li><a href="{{ '/about' | prepend: site.baseurl }}">about</a></li>
+              <li><a href="{{ '/archive' | prepend: site.baseurl }}">archive</a></li>
+              <li><a href="{{ '/tags' | prepend: site.baseurl }}">tags</a></li>
+              <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}" target="_blank">feed</a></li>
+              <li><a href="{{ '/search' | prepend: site.baseurl }}"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+          </ul>
         </div>
       </div>
 
