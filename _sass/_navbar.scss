@@ -22,6 +22,7 @@
   padding: 0;
   pointer-events: all;
   cursor: pointer;
+  float: left;
 
   li {
     display: inline-block;
@@ -32,4 +33,8 @@
     @extend .link;
     text-decoration: none;
   }
+}
+
+.title {
+    float: left;
 }
