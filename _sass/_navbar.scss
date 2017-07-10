@@ -16,13 +16,11 @@
 }
 
 .navbar {
-  //float: right;
   margin: 0;
   position: relative;
   padding: 0;
   pointer-events: all;
   cursor: pointer;
-  float: right;
   font-size: 1rem;
 
   li {
@@ -33,5 +31,11 @@
   a {
     @extend .link;
     text-decoration: none;
+  }
+}
+
+@media (min-width: 48em) {
+  .navbar {
+    float: right;
   }
 }
