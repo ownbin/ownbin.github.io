@@ -1,1 +1,2 @@
-Hello, This is my blog.
+# ehomy.github.io
+ehomy blog
