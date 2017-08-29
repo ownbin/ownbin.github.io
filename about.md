@@ -4,8 +4,4 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+>一个程序员，游走在理性和感性之间，偶尔思维跳脱，间或保守固执，通通不定式，怎么改？来首[我期待](http://music.163.com/m/song?id=187104&userid=96958161)。
